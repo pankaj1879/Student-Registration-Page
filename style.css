@@ -1,0 +1,218 @@
+/*---------------------------------------*/
+/* Font */
+/*---------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+
+/*---------------------------------------*/
+/* Register Form */
+/*---------------------------------------*/
+body {
+  background:linear-gradient(to right, #43cea2 , #185a9d);
+  height: max-content;
+  zoom: initial;
+  size: inherit;
+}
+
+.reg-form {
+  content: "";
+  position: absolute;
+ 
+  border-bottom-right-radius: max(50vw, 50vh);
+  border-top-left-radius: max(50vw, 50vh);
+  font-family: "Roboto", sans-serif;
+  width:650px;
+  margin:30px auto;
+  background:linear-gradient(to right, #ffffff 0%, #fafafa 50%, #ffffff 99%);
+ 
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 10px 5px 30px 21px;
+  transform: scale(0.5s);;
+  padding-top: 0px;
+  
+}
+
+.reg-form {
+  transform: translate(0, 0);
+  right:46%;
+}
+
+
+.reg-form {
+  transform: translate(100%, 0);
+  right: 46%;
+}
+/*---------------------------------------*/
+/* Form Header */
+/*---------------------------------------*/
+.form-header  {
+  background-image: linear-gradient(to left, #30cfd0 0%, #185a9d 100%);  
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  /* box-shadow: inset 1px 1px 10px 2px rgba(1,1, 1, 0.5); */
+  box-shadow:5px 5px 15px  rgba(0, 0, 0, 0.35) ; 
+}
+
+.form-header h1 {
+  font-weight: 300;
+  font-size: 33px;
+  /* text-decoration: underline; */
+  text-align:center;
+  color:rgb(53, 5, 17);
+  padding:20px 0;
+  border-bottom:1px solid #cccccc;
+  text-shadow: 2px 1px 4px #b2e3f1 ;
+  margin-top: 0px;
+}
+
+/*---------------------------------------*/
+/* Form Body */
+/*---------------------------------------*/
+.form-body {
+  padding:10px 40px;
+  color:#666;
+}
+
+.form-group{
+  margin-bottom:20px;
+}
+
+.form-body .label-title {
+  color:#85144b;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.form-body .form-input {
+    font-size: 17px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 34px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #333333;
+    text-align: left;
+    border: 1px solid #d6d6d6;
+    border-radius: 4px;
+    background: rgb(255, 241, 241);
+    outline: none;
+}
+
+
+
+.horizontal-group .left{
+  float:left;
+  width:49%;
+}
+
+.horizontal-group .right{
+  float:right;
+  width:49%;
+}
+
+input[type="file"] {
+  outline: none;
+  cursor:pointer;
+  font-size: 17px;
+}
+
+
+::-webkit-input-placeholder  {
+  color:#d9d9d9;
+}
+
+
+/* Removes the clear button from date inputs */
+input[type="date"]::-webkit-clear-button {
+  display: none;
+}
+
+/* Removes the spin button */
+input[type="date"]::-webkit-inner-spin-button { 
+  display: none;
+}
+
+/* Always display the drop down caret */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: #2c3e50;
+}
+
+/* A few custom styles for date inputs */
+input[type="date"] {
+  appearance: none;
+  -webkit-appearance: none;
+  color: #95a5a6;
+  font-family: "Helvetica", arial, sans-serif;
+  font-size: 18px;
+  border:1px solid #ecf0f1;
+  background:#ecf0f1;
+  padding:5px;
+  display: inline-block !important;
+  visibility: visible !important;
+}
+
+input[type="date"], focus {
+  color: #95a5a6;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+
+/*---------------------------------------*/
+/* Form Footer */
+/*---------------------------------------*/
+.reg-form .form-footer  {
+  background-color: #EFF0F1;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding:10px 40px;
+  text-align: right;
+  border-top: 1px solid #cccccc;
+  clear:both;
+}
+
+.form-footer span {
+  float:left;
+  margin-top: 10px;
+  color:#999;  
+  font-style: italic;
+  font-weight: thin;
+}
+
+.btn {
+   display:inline-block;
+   padding:10px 20px;
+   background-color: #185a9d;
+   font-size:17px;
+   border:none;
+   border-radius:5px;
+   color:#bcf5e7;
+   cursor:pointer;
+}
+
+.btn:hover {
+  background-color: #0d2d4d;
+  color:white;
+}
+
+
+.backlimage {
+  
+  background-size: cover;
+  background-position: left;
+  min-height: initial;
+  overflow: auto;
+  float: left;
+  
+}
+
+
+@media only screen and (max-width:1000px){
+  .backimage{
+    background-position: 50%;
+  }
+}
+
